@@ -5,5 +5,5 @@ from pathlib import Path
 import streamlit as st
 import numpy as np
 
-dataframe = np.random.randn(10, 20)
+dataframe = np.random.randn(5, 20)
 st.dataframe(dataframe)
