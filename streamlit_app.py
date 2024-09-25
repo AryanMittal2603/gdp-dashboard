@@ -12,6 +12,6 @@ df = pd.DataFrame({
 
 option = st.selectbox(
     'Which number do you like best?',
-     df['first column'])
+     df['second column'])
 
 'You selected: ', option
